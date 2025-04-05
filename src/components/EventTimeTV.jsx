@@ -66,7 +66,7 @@ const TechnoVistaEvents = () => {
 
   return (
     <div className="min-h-screen bg-black text-white p-8" style={{
-      backgroundImage: `url('zsdfvbnm,wertyuiosdfghjk345rtyui')`,
+      backgroundImage: url('zsdfvbnm,wertyuiosdfghjk345rtyui'),
       backgroundSize: 'cover',
       backgroundPosition: 'center',
     }}>
@@ -126,7 +126,7 @@ const DayCard = ({ day }) => {
             <a href={event.navigationLink} className="block">
               <div className="h-24 bg-white bg-opacity-70 border border-black rounded-xl flex items-center justify-center text-black text-lg font-medium text-center p-4 bg-cover bg-center transition-transform duration-200 hover:scale-105 relative"
                   style={{ 
-                    backgroundImage: `url('${event.backgroundLink}')`
+                    backgroundImage: url('${event.backgroundLink}')
                   }}>
                 {event.name === "Guest Lecture" ? (
                   <span className="absolute top-1/3 transform -translate-y-1/2 text-xl font-bold" 
